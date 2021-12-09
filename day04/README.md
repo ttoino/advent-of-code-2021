@@ -32,33 +32,30 @@ The submarine has a **bingo subsystem** to help passengers (currently, you and t
 
 After the first five numbers are drawn (`7`, `4`, `9`, `5`, and `11`), there are no winners, but the boards are marked as follows (shown here adjacent to each other to save space):
 
-```
-22 13 17  x  0         3 15  0  2 22        14 21 17 24  x
- 8  2 23  x 24         x 18 13 17  x        10 16 15  x 19
-21  x 14 16  x        19  8  x 25 23        18  8 23 26 20
- 6 10  3 18  x        20  x 10 24  x        22  x 13  6  x
- 1 12 20 15 19        14 21 16 12  6         2  0 12  3  x
-```
+<pre><code>22 13 17 <del>11</del>  0         3 15  0  2 22        14 21 17 24  <del>4</del>
+ 8  2 23  <del>4</del> 24         <del>9</del> 18 13 17  <del>5</del>        10 16 15  <del>9</del> 19
+21  <del>9</del> 14 16  <del>7</del>        19  8  <del>7</del> 25 23        18  8 23 26 20
+ 6 10  3 18  <del>5</del>        20 <del>11</del> 10 24  4        22 <del>11</del> 13  6  <del>5</del>
+ 1 12 20 15 19        14 21 16 12  6         2  0 12  3  <del>7</del>
+</code></pre>
 
 After the next six numbers are drawn (`17`, `23`, `2`, `0`, `14`, and `21`), there are still no winners:
 
-```
-22 13  x  x  x         3 15  x  x 22         x  x  x 24  x
- 8  x  x  x 24         x 18 13  x  x        10 16 15  x 19
- x  x  x 16  x        19  8  x 25  x        18  8  x 26 20
- 6 10  3 18  x        20  x 10 24  x        22  x 13  6  x
- 1 12 20 15 19         x  x 16 12  6         x  x 12  3  x
-```
+<pre><code>22 13 <del>17</del> <del>11</del>  <del>0</del>         3 15  <del>0</del>  <del>2</del> 22        <del>14</del> <del>21</del> <del>17</del> 24  <del>4</del>
+ 8  <del>2</del> <del>23</del>  <del>4</del> 24         <del>9</del> 18 13 <del>17</del>  <del>5</del>        10 16 15  <del>9</del> 19
+<del>21</del>  <del>9</del> <del>14</del> 16  <del>7</del>        19  8  <del>7</del> 25 <del>23</del>        18  8 <del>23</del> 26 20
+ 6 10  3 18  <del>5</del>        20 <del>11</del> 10 24  <del>4</del>        22 <del>11</del> 13  6  <del>5</del>
+ 1 12 20 15 19        <del>14</del> <del>21</del> 16 12  6         <del>2</del>  <del>0</del> 12  3  <del>7</del>
+</code></pre>
 
 Finally, `24` is drawn:
 
-```
-22 13  x  x  x         3 15  x  x 22         x  x  x  x  x
- 8  x  x  x  x         x 18 13  x  x        10 16 15  x 19
- x  x  x 16  x        19  8  x 25  x        18  8  x 26 20
- 6 10  3 18  x        20  x 10  x  x        22  x 13  6  x
- 1 12 20 15 19         x  x 16 12  6         x  x 12  3  x
-```
+<pre><code>22 13 <del>17</del> <del>11</del>  <del>0</del>         3 15  <del>0</del>  <del>2</del> 22        <del>14 21 17 24  4</del>
+ 8  <del>2</del> <del>23</del>  <del>4</del> <del>24</del>         <del>9</del> 18 13 <del>17</del>  <del>5</del>        10 16 15  <del>9</del> 19
+<del>21</del>  <del>9</del> <del>14</del> 16  <del>7</del>        19  8  <del>7</del> 25 <del>23</del>        18  8 <del>23</del> 26 20
+ 6 10  3 18  <del>5</del>        20 <del>11</del> 10 <del>24</del>  <del>4</del>        22 <del>11</del> 13  6  <del>5</del>
+ 1 12 20 15 19        <del>14</del> <del>21</del> 16 12  6         <del>2</del>  <del>0</del> 12  3  <del>7</del>
+</code></pre>
 
 At this point, the third board **wins** because it has at least one complete row or column of marked numbers (in this case, the entire top row is marked: `14 21 17 24 4`).
 

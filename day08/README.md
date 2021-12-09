@@ -49,28 +49,27 @@ Using this information, you should be able to work out which combination of sign
 
 For now, **focus on the easy digits**. Consider this larger example:
 
-```
-be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb |
-*fdgacbe* cefdb cefbgd *gcbe*
+<pre><code>be cfbegad cbdgef fgaecd cgeb fdcge agebfd fecdb fabcd edb |
+<strong>fdgacbe</strong> cefdb cefbgd <strong>gcbe</strong>
 edbfga begcd cbg gc gcadebf fbgde acbgfd abcde gfcbed gfec |
-fcgedb *cgb* *dgebacf* *gc*
+fcgedb <strong>cgb</strong> <strong>dgebacf</strong> <strong>gc</strong>
 fgaebd cg bdaec gdafb agbcfd gdcbef bgcad gfac gcb cdgabef |
-*cg* *cg* fdcagb *cbg*
+<strong>cg</strong> <strong>cg</strong> fdcagb <strong>cbg</strong>
 fbegcd cbd adcefb dageb afcb bc aefdc ecdab fgdeca fcdbega |
-efabcd cedba gadfec *cb*
+efabcd cedba gadfec <strong>cb</strong>
 aecbfdg fbg gf bafeg dbefa fcge gcbea fcaegb dgceab fcbdga |
-*gecf* *egdcabf* *bgf* bfgea
+<strong>gecf</strong> <strong>egdcabf</strong> <strong>bgf</strong> bfgea
 fgeab ca afcebg bdacfeg cfaedg gcfdb baec bfadeg bafgc acf |
-*gebdcfa* *ecba* *ca* *fadegcb*
+<strong>gebdcfa</strong> <strong>ecba</strong> <strong>ca</strong> <strong>fadegcb</strong>
 dbcfg fgd bdegcaf fgec aegbdf ecdfab fbedc dacgb gdcebf gf |
-*cefg* dcbef *fcge* *gbcadfe*
+<strong>cefg</strong> dcbef <strong>fcge</strong> <strong>gbcadfe</strong>
 bdfegc cbegaf gecbf dfcage bdacg ed bedf ced adcbefg gebcd |
-*ed* bcgafe cdgba cbgef
+<strong>ed</strong> bcgafe cdgba cbgef
 egadfb cdbfeg cegd fecab cgb gbdefca cg fgcdab egfdb bfceg |
-*gbdfcae* *bgc* *cg* *cgb*
+<strong>gbdfcae</strong> <strong>bgc</strong> <strong>cg</strong> <strong>cgb</strong>
 gcafb gcf dcaebfg ecagb gf abcdeg gaef cafbge fdbac fegbdc |
-*fgae* cfgab *fg* bagce
-```
+<strong>fgae</strong> cfgab <strong>fg</strong> bagce
+</code></pre>
 
 Because the digits `1`, `4`, `7`, and `8` each use a unique number of segments, you should be able to tell which combinations of signals correspond to those digits. Counting **only digits in the output values** (the part after `|` on each line), in the above example, there are **`26`** instances of digits that use a unique number of segments (highlighted above).
 
