@@ -43,7 +43,7 @@ To do this, count **the number of times a depth measurement increases** from the
 263 (<strong>increased</strong>)
 </code></pre>
 
-In this example, there are `7` measurements that are larger than the previous measurement.
+In this example, there are **`7`** measurements that are larger than the previous measurement.
 
 **How many measurements are larger than the previous measurement?**
 
@@ -82,6 +82,6 @@ G: 769 (<strong>increased</strong>)
 H: 792 (<strong>increased</strong>)
 </code></pre>
 
-In this example, there are `5` sums that are larger than the previous sum.
+In this example, there are **`5`** sums that are larger than the previous sum.
 
 Consider sums of a three-measurement sliding window. **How many sums are larger than the previous sum?**

@@ -1,6 +1,6 @@
 # Day 12: Passage Pathing
 
-With your submarine's subterranean subsystems subsisting suboptimally, the only way you're getting out of this cave anytime soon is by finding **a** path yourself. Not just a path - the only way to know if you've found the **best** path is to find **all** of them.
+With your submarine's subterranean subsystems subsisting suboptimally, the only way you're getting out of this cave anytime soon is by finding a path yourself. Not just **a** path - the only way to know if you've found the **best** path is to find **all** of them.
 
 Fortunately, the sensors are still mostly working, and so you build a rough map of the remaining caves (your puzzle input). For example:
 
@@ -45,7 +45,7 @@ start,b,end
 
 (Each line in the above list corresponds to a single path; the caves visited by that path are listed in the order they are visited and separated by commas.)
 
-Note that in this cave system, cave d is never visited by any path: to do so, cave `b` would need to be visited twice (once on the way to cave `d` and a second time when returning from cave `d`), and since cave `b` is small, this is not allowed.
+Note that in this cave system, cave `d` is never visited by any path: to do so, cave `b` would need to be visited twice (once on the way to cave `d` and a second time when returning from cave `d`), and since cave `b` is small, this is not allowed.
 
 Here is a slightly larger example:
 

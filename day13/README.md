@@ -5,7 +5,8 @@ You reach another volcanically active part of the cave. It would be nice if you 
 Fortunately, the submarine seems to be equipped with a thermal camera! When you activate it, you are greeted with:
 
 ```
-Congratulations on your purchase! To activate this infrared thermal imaging camera system, please enter the code found on page 1 of the manual.
+Congratulations on your purchase! To activate this infrared thermal imaging
+camera system, please enter the code found on page 1 of the manual.
 ```
 
 Apparently, the Elves have never used this feature. To your surprise, you manage to find the manual; as you go to open it, page 1 falls out. It's a large sheet of [transparent paper](https://en.wikipedia.org/wiki/Transparency_(projection))! The transparent paper is marked with random dots and includes instructions on how to fold it up (your puzzle input). For example:

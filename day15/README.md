@@ -158,7 +158,8 @@ Equipped with the full map, you can now find a path from the top left corner to 
 57944568656815567976792667818781377892989<strong>24</strong>8891319
 756986517486719762859782187396189329841729<strong>1431</strong>9528
 564757396567586841767869795287897181639891829<strong>2</strong>7419
-675548893578665991468977611257918872236812998<strong>33479</strong></code></pre>
+675548893578665991468977611257918872236812998<strong>33479</strong>
+</code></pre>
 
 The total risk of this path is **`315`** (the starting position is still never entered, so its risk is not counted).
 

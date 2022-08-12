@@ -33,11 +33,11 @@ To **explode** a pair, the pair's left value is added to the first regular numbe
 
 Here are some examples of a single explode action:
 
-- <code>[[[[<strong>[9,8]</strong>,1],2],3],4]</code> becomes <code>[[[[<strong>0,9</strong>],2],3],4]</code> (the `9` has no regular number to its left, so it is not added to any regular number).
-- <code>[7,[6,[5,[4,<strong>[3,2]</strong>]]]]</code> becomes <code>[7,[6,[5,[<strong>7,0</strong>]]]]</code> (the `2` has no regular number to its right, and so it is not added to any regular number).
-- <code>[[6,[5,[4,<strong>[3,2]</strong>]]],1]</code> becomes <code>[[6,[5,[<strong>7,0</strong>]]],<strong>3</strong>]</code>.
-- <code>[[3,[2,[1,<strong>[7,3]</strong>]]],[6,[5,[4,[3,2]]]]]</code> becomes <code>[[3,[2,[<strong>8,0</strong>]]],[<strong>9</strong>,[5,[4,[3,2]]]]]</code> (the pair `[3,2]` is unaffected because the pair `[7,3]` is further to the left; `[3,2]` would explode on the next action).
-- <code>[[3,[2,[8,0]]],[9,[5,[4,<strong>[3,2]</strong>]]]]</code> becomes <code>[[3,[2,[8,0]]],[9,[5,[<strong>7,0</strong>]]]]</code>.
+- <code>[[[[<strong>[9,8]</strong>,1],2],3],4]</code> becomes <code>[[[[<strong>0</strong>,<strong>9</strong>],2],3],4]</code> (the `9` has no regular number to its left, so it is not added to any regular number).
+- <code>[7,[6,[5,[4,<strong>[3,2]</strong>]]]]</code> becomes <code>[7,[6,[5,[<strong>7</strong>,<strong>0</strong>]]]]</code> (the `2` has no regular number to its right, and so it is not added to any regular number).
+- <code>[[6,[5,[4,<strong>[3,2]</strong>]]],1]</code> becomes <code>[[6,[5,[<strong>7</strong>,<strong>0</strong>]]],<strong>3</strong>]</code>.
+- <code>[[3,[2,[1,<strong>[7,3]</strong>]]],[6,[5,[4,[3,2]]]]]</code> becomes <code>[[3,[2,[<strong>8</strong>,<strong>0</strong>]]],[<strong>9</strong>,[5,[4,[3,2]]]]]</code> (the pair `[3,2]` is unaffected because the pair `[7,3]` is further to the left; `[3,2]` would explode on the next action).
+- <code>[[3,[2,[8,0]]],[9,[5,[4,<strong>[3,2]</strong>]]]]</code> becomes <code>[[3,[2,[8,0]]],[9,[5,[<strong>7</strong>,<strong>0</strong>]]]]</code>.
 
 To **split** a regular number, replace it with a pair; the left element of the pair should be the regular number divided by two and rounded **down**, while the right element of the pair should be the regular number divided by two and rounded **up**. For example, `10` becomes `[5,5]`, `11` becomes `[5,6]`, `12` becomes `[6,6]`, and so on.
 

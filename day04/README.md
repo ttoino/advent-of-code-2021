@@ -32,34 +32,34 @@ The submarine has a **bingo subsystem** to help passengers (currently, you and t
 
 After the first five numbers are drawn (`7`, `4`, `9`, `5`, and `11`), there are no winners, but the boards are marked as follows (shown here adjacent to each other to save space):
 
-<pre><code>22 13 17 <del>11</del>  0         3 15  0  2 22        14 21 17 24  <del>4</del>
- 8  2 23  <del>4</del> 24         <del>9</del> 18 13 17  <del>5</del>        10 16 15  <del>9</del> 19
-21  <del>9</del> 14 16  <del>7</del>        19  8  <del>7</del> 25 23        18  8 23 26 20
- 6 10  3 18  <del>5</del>        20 <del>11</del> 10 24  4        22 <del>11</del> 13  6  <del>5</del>
- 1 12 20 15 19        14 21 16 12  6         2  0 12  3  <del>7</del>
+<pre><code>22 13 17 <strong>11</strong>  0         3 15  0  2 22        14 21 17 24  <strong>4</strong>
+ 8  2 23  <strong>4</strong> 24         <strong>9</strong> 18 13 17  <strong>5</strong>        10 16 15  <strong>9</strong> 19
+21  <strong>9</strong> 14 16  <strong>7</strong>        19  8  <strong>7</strong> 25 23        18  8 23 26 20
+ 6 10  3 18  <strong>5</strong>        20 <strong>11</strong> 10 24  <strong>4</strong>        22 <strong>11</strong> 13  6  <strong>5</strong>
+ 1 12 20 15 19        14 21 16 12  6         2  0 12  3  <strong>7</strong>
 </code></pre>
 
 After the next six numbers are drawn (`17`, `23`, `2`, `0`, `14`, and `21`), there are still no winners:
 
-<pre><code>22 13 <del>17</del> <del>11</del>  <del>0</del>         3 15  <del>0</del>  <del>2</del> 22        <del>14</del> <del>21</del> <del>17</del> 24  <del>4</del>
- 8  <del>2</del> <del>23</del>  <del>4</del> 24         <del>9</del> 18 13 <del>17</del>  <del>5</del>        10 16 15  <del>9</del> 19
-<del>21</del>  <del>9</del> <del>14</del> 16  <del>7</del>        19  8  <del>7</del> 25 <del>23</del>        18  8 <del>23</del> 26 20
- 6 10  3 18  <del>5</del>        20 <del>11</del> 10 24  <del>4</del>        22 <del>11</del> 13  6  <del>5</del>
- 1 12 20 15 19        <del>14</del> <del>21</del> 16 12  6         <del>2</del>  <del>0</del> 12  3  <del>7</del>
+<pre><code>22 13 <strong>17</strong> <strong>11</strong>  <strong>0</strong>         3 15  <strong>0</strong>  <strong>2</strong> 22        <strong>14</strong> <strong>21</strong> <strong>17</strong> 24  <strong>4</strong>
+ 8  <strong>2</strong> <strong>23</strong>  <strong>4</strong> 24         <strong>9</strong> 18 13 <strong>17</strong>  <strong>5</strong>        10 16 15  <strong>9</strong> 19
+<strong>21</strong>  <strong>9</strong> <strong>14</strong> 16  <strong>7</strong>        19  8  <strong>7</strong> 25 <strong>23</strong>        18  8 <strong>23</strong> 26 20
+ 6 10  3 18  <strong>5</strong>        20 <strong>11</strong> 10 24  <strong>4</strong>        22 <strong>11</strong> 13  6  <strong>5</strong>
+ 1 12 20 15 19        <strong>14</strong> <strong>21</strong> 16 12  6         <strong>2</strong>  <strong>0</strong> 12  3  <strong>7</strong>
 </code></pre>
 
 Finally, `24` is drawn:
 
-<pre><code>22 13 <del>17</del> <del>11</del>  <del>0</del>         3 15  <del>0</del>  <del>2</del> 22        <del>14 21 17 24  4</del>
- 8  <del>2</del> <del>23</del>  <del>4</del> <del>24</del>         <del>9</del> 18 13 <del>17</del>  <del>5</del>        10 16 15  <del>9</del> 19
-<del>21</del>  <del>9</del> <del>14</del> 16  <del>7</del>        19  8  <del>7</del> 25 <del>23</del>        18  8 <del>23</del> 26 20
- 6 10  3 18  <del>5</del>        20 <del>11</del> 10 <del>24</del>  <del>4</del>        22 <del>11</del> 13  6  <del>5</del>
- 1 12 20 15 19        <del>14</del> <del>21</del> 16 12  6         <del>2</del>  <del>0</del> 12  3  <del>7</del>
+<pre><code>22 13 <strong>17</strong> <strong>11</strong>  <strong>0</strong>         3 15  <strong>0</strong>  <strong>2</strong> 22        <strong>14</strong> <strong>21</strong> <strong>17</strong> <strong>24</strong>  <strong>4</strong>
+ 8  <strong>2</strong> <strong>23</strong>  <strong>4</strong> <strong>24</strong>         <strong>9</strong> 18 13 <strong>17</strong>  <strong>5</strong>        10 16 15  <strong>9</strong> 19
+<strong>21</strong>  <strong>9</strong> <strong>14</strong> 16  <strong>7</strong>        19  8  <strong>7</strong> 25 <strong>23</strong>        18  8 <strong>23</strong> 26 20
+ 6 10  3 18  <strong>5</strong>        20 <strong>11</strong> 10 <strong>24</strong>  <strong>4</strong>        22 <strong>11</strong> 13  6  <strong>5</strong>
+ 1 12 20 15 19        <strong>14</strong> <strong>21</strong> 16 12  6         <strong>2</strong>  <strong>0</strong> 12  3  <strong>7</strong>
 </code></pre>
 
-At this point, the third board **wins** because it has at least one complete row or column of marked numbers (in this case, the entire top row is marked: `14 21 17 24 4`).
+At this point, the third board **wins** because it has at least one complete row or column of marked numbers (in this case, the entire top row is marked: **`14 21 17 24 4`**).
 
-The **score** of the winning board can now be calculated. Start by finding the **sum of all unmarked numbers** on that board; in this case, the sum is `188`. Then, multiply that sum by **the number that was just called** when the board won, `24`, to get the final score, `188 * 24 = 4512`.
+The **score** of the winning board can now be calculated. Start by finding the **sum of all unmarked numbers** on that board; in this case, the sum is `188`. Then, multiply that sum by **the number that was just called** when the board won, `24`, to get the final score, <code>188 \* 24 = <strong>4512</strong></code>.
 
 To guarantee victory against the giant squid, figure out which board will win first. **What will your final score be if you choose that board?**
 
@@ -69,6 +69,6 @@ On the other hand, it might be wise to try a different strategy: let the giant s
 
 You aren't sure how many bingo boards a giant squid could play at once, so rather than waste time counting its arms, the safe thing to do is to **figure out which board will win last** and choose that one. That way, no matter which boards it picks, it will win for sure.
 
-In the above example, the second board is the last to win, which happens after `13` is eventually called and its middle column is completely marked. If you were to keep playing until this point, the second board would have a sum of unmarked numbers equal to `148` for a final score of `148 * 13 = 1924`.
+In the above example, the second board is the last to win, which happens after `13` is eventually called and its middle column is completely marked. If you were to keep playing until this point, the second board would have a sum of unmarked numbers equal to `148` for a final score of <code>148 \* 13 = <strong>1924</strong></code>.
 
 Figure out which board will win last. **Once it wins, what would its final score be?**

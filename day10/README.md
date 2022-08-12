@@ -55,7 +55,7 @@ Did you know that syntax checkers actually have contests to see who can get the 
 - `}`: `1197` points.
 - `>`: `25137` points.
 
-In the above example, an illegal `)` was found twice (<code>2*3 = <strong>6</strong></code> points), an illegal `]` was found once (**`57`** points), an illegal `}` was found once (**`1197`** points), and an illegal `>` was found once (**`25137`** points). So, the total syntax error score for this file is <code>6+57+1197+25137 = <strong>26397</strong></code> points!
+In the above example, an illegal `)` was found twice (<code>2\*3 = <strong>6</strong></code> points), an illegal `]` was found once (**`57`** points), an illegal `}` was found once (**`1197`** points), and an illegal `>` was found once (**`25137`** points). So, the total syntax error score for this file is <code>6+57+1197+25137 = <strong>26397</strong></code> points!
 
 Find the first illegal character in each corrupted line of the navigation subsystem. **What is the total syntax error score for those errors?**
 

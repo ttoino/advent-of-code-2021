@@ -334,16 +334,16 @@ After step 194:
 8888888888
 
 After step 195:
-<strong>0000000000
-0000000000
-0000000000
-0000000000
-0000000000
-0000000000
-0000000000
-0000000000
-0000000000
-0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
+<strong>0000000000</strong>
 </code></pre>
 
 If you can calculate the exact moments when the octopuses will all flash simultaneously, you should be able to navigate through the cavern. **What is the first step during which all octopuses flash?**

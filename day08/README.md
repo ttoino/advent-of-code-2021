@@ -6,25 +6,24 @@ As your submarine slowly makes its way through the cave system, you notice that 
 
 Each digit of a seven-segment display is rendered by turning on or off any of seven segments named `a` through `g`:
 
-```
-  0:      1:      2:      3:      4:
- aaaa    ....    aaaa    aaaa    ....
-b    c  .    c  .    c  .    c  b    c
-b    c  .    c  .    c  .    c  b    c
- ....    ....    dddd    dddd    dddd
-e    f  .    f  e    .  .    f  .    f
-e    f  .    f  e    .  .    f  .    f
- gggg    ....    gggg    gggg    ....
+<pre><code>  0:      1:      2:      3:      4:
+ <strong>aaaa</strong>    ....    <strong>aaaa    aaaa</strong>    ....
+<strong>b    c</strong>  .    <strong>c</strong>  .    <strong>c</strong>  .    <strong>c  b    c</strong>
+<strong>b    c</strong>  .    <strong>c</strong>  .    <strong>c</strong>  .    <strong>c  b    c</strong>
+ ....    ....    <strong>dddd    dddd    dddd</strong>
+<strong>e    f</strong>  .    <strong>f  e</strong>    .  .    <strong>f</strong>  .    <strong>f</strong>
+<strong>e    f</strong>  .    <strong>f  e</strong>    .  .    <strong>f</strong>  .    <strong>f</strong>
+ <strong>gggg</strong>    ....    <strong>gggg    gggg</strong>    ....
 
   5:      6:      7:      8:      9:
- aaaa    aaaa    aaaa    aaaa    aaaa
-b    .  b    .  .    c  b    c  b    c
-b    .  b    .  .    c  b    c  b    c
- dddd    dddd    ....    dddd    dddd
-.    f  e    f  .    f  e    f  .    f
-.    f  e    f  .    f  e    f  .    f
- gggg    gggg    ....    gggg    gggg
-```
+ <strong>aaaa    aaaa    aaaa    aaaa    aaaa</strong>
+<strong>b</strong>    .  <strong>b</strong>    .  .    <strong>c  b    c  b    c</strong>
+<strong>b</strong>    .  <strong>b</strong>    .  .    <strong>c  b    c  b    c</strong>
+ <strong>dddd    dddd</strong>    ....    <strong>dddd    dddd</strong>
+.    <strong>f  e    f</strong>  .    <strong>f  e    f</strong>  .    <strong>f</strong>
+.    <strong>f  e    f</strong>  .    <strong>f  e    f</strong>  .    <strong>f</strong>
+ <strong>gggg    gggg</strong>    ....    <strong>gggg    gggg</strong>
+</code></pre>
 
 So, to render a `1`, only segments `c` and `f` would be turned on; the rest would be off. To render a `7`, only segments `a`, `c`, and `f` would be turned on.
 

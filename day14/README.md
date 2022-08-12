@@ -33,9 +33,9 @@ The following section defines the **pair insertion** rules. A rule like `AB -> C
 
 So, starting with the polymer template `NNCB`, the first step simultaneously considers all three pairs:
 
-- The first pair (`NN`) matches the rule `NN -> C`, so element `C` is inserted between the first `N` and the second `N`.
-- The second pair (`NC`) matches the rule `NC -> B`, so element `B` is inserted between the `N` and the `C`.
-- The third pair (`CB`) matches the rule `CB -> H`, so element `H` is inserted between the `C` and the `B`.
+- The first pair (`NN`) matches the rule `NN -> C`, so element **`C`** is inserted between the first `N` and the second `N`.
+- The second pair (`NC`) matches the rule `NC -> B`, so element **`B`** is inserted between the `N` and the `C`.
+- The third pair (`CB`) matches the rule `CB -> H`, so element **`H`** is inserted between the `C` and the `B`.
 
 Note that these pairs overlap: the second element of one pair is the first element of the next pair. Also, because all pairs are considered simultaneously, inserted elements are not considered to be part of a pair until the next step.
 

@@ -12,7 +12,7 @@ The ALU is a four-dimensional processing unit: it has integer variables `w`, `x`
 - `add a b` - Add the value of `a` to the value of `b`, then store the result in variable `a`.
 - `mul a b` - Multiply the value of `a` by the value of `b`, then store the result in variable `a`.
 - `div a b` - Divide the value of `a` by the value of `b`, truncate the result to an integer, then store the result in variable `a`. (Here, "truncate" means to round the value toward zero.)
-- `mod a b` - Divide the value of `a` by the value of `b`, then store the remainder in variable `a`. (This is also called the [modulo](https://en.wikipedia.org/wiki/Modulo_operation) operation.)
+- `mod a b` - Divide the value of `a` by the value of `b`, then store the **remainder** in variable `a`. (This is also called the [modulo](https://en.wikipedia.org/wiki/Modulo_operation) operation.)
 - `eql a b` - If the value of `a` and `b` are equal, then store the value `1` in variable `a`. Otherwise, store the value `0` in variable `a`.
 
 In all of these instructions, `a` and `b` are placeholders; `a` will always be the variable where the result of the operation is stored (one of `w`, `x`, `y`, or `z`), while `b` can be either a variable or a number. Numbers can be positive or negative, but will always be integers.

@@ -109,9 +109,9 @@ on x=-54112..-39298,y=-85059..-49293,z=-27449..7877
 on x=967..23432,y=45373..81175,z=27513..53682
 ```
 
-The last two steps are fully outside the initialization procedure area; all other steps are fully within it. After executing these steps in the initialization procedure region, **`590784`** cubes are on.
+The last two steps are fully outside the initialization procedure area; all other steps are fully within it. After executing these steps in the initialization procedure region, **`590784`** cubes are **on**.
 
-Execute the reboot steps. Afterward, considering only cubes in the region `x=-50..50,y=-50..50,z=-50..50`, **how many cubes are on**?
+Execute the reboot steps. Afterward, considering only cubes in the region `x=-50..50,y=-50..50,z=-50..50`, **how many cubes are on?**
 
 ## Part Two
 
@@ -184,6 +184,6 @@ on x=-53470..21291,y=-120233..-33476,z=-44150..38147
 off x=-93533..-4276,y=-16170..68771,z=-104985..-24507
 ```
 
-After running the above reboot steps, **`2758514936282235`** cubes are on. (Just for fun, `474140` of those are also in the initialization procedure region.)
+After running the above reboot steps, **`2758514936282235`** cubes are **on**. (Just for fun, `474140` of those are also in the initialization procedure region.)
 
-Starting again with all cubes **off**, execute all reboot steps. Afterward, considering all cubes, **how many cubes are on**?
+Starting again with all cubes **off**, execute all reboot steps. Afterward, considering all cubes, **how many cubes are on?**

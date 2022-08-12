@@ -47,7 +47,7 @@ Below each bit is a label indicating its purpose:
 
 So, this packet represents a literal value with binary representation `011111100101`, which is `2021` in decimal.
 
-Every other type of packet (any packet with a type ID other than 4) represent an **operator** that performs some calculation on one or more sub-packets contained within. Right now, the specific operations aren't important; focus on parsing the hierarchy of sub-packets.
+Every other type of packet (any packet with a type ID other than `4`) represent an **operator** that performs some calculation on one or more sub-packets contained within. Right now, the specific operations aren't important; focus on parsing the hierarchy of sub-packets.
 
 An operator packet contains one or more packets. To indicate which subsequent binary data represents its sub-packets, an operator packet can use one of two modes indicated by the bit immediately after the packet header; this is called the **length type ID**:
 
@@ -104,7 +104,7 @@ Decode the structure of your hexadecimal-encoded BITS transmission; **what do yo
 
 Now that you have the structure of your transmission decoded, you can calculate the value of the expression it represents.
 
-Literal values (type ID 4) represent a single number as described above. The remaining type IDs are more interesting:
+Literal values (type ID `4`) represent a single number as described above. The remaining type IDs are more interesting:
 
 - Packets with type ID `0` are **sum** packets - their value is the sum of the values of their sub-packets. If they only have a single sub-packet, their value is the value of the sub-packet.
 - Packets with type ID `1` are **product** packets - their value is the result of multiplying together the values of their sub-packets. If they only have a single sub-packet, their value is the value of the sub-packet.
@@ -125,6 +125,6 @@ For example:
 - `D8005AC2A8F0` produces `1`, because `5` is less than `15`.
 - `F600BC2D8F` produces `0`, because `5` is not greater than `15`.
 - `9C005AC2F8F0` produces `0`, because `5` is not equal to `15`.
-- `9C0141080250320F1802104A08` produces `1`, because `1 + 3 = 2 * 2`.
+- `9C0141080250320F1802104A08` produces `1`, because `1` + `3` = `2` \* `2`.
 
 **What do you get if you evaluate the expression represented by your hexadecimal-encoded BITS transmission?**

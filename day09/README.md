@@ -67,6 +67,6 @@ The bottom-right basin, size `9`:
 98999<strong>65678</strong>
 </code></pre>
 
-Find the three largest basins and multiply their sizes together. In the above example, this is <code>9 * 14 * 9 = <strong>1134</strong></code>.
+Find the three largest basins and multiply their sizes together. In the above example, this is <code>9 \* 14 \* 9 = <strong>1134</strong></code>.
 
 **What do you get if you multiply together the sizes of the three largest basins?**

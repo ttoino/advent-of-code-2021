@@ -112,6 +112,6 @@ The probe appears to pass through the target area, but is never within it after 
 
 If you're going to fire a highly scientific probe out of a super cool probe launcher, you might as well do it with **style**. How high can you make the probe go while still reaching the target area?
 
-In the above example, using an initial velocity of `6,9` is the best you can do, causing the probe to reach a maximum `y` position of **`45`**. (Any higher initial y velocity causes the probe to overshoot the target area entirely.)
+In the above example, using an initial velocity of `6,9` is the best you can do, causing the probe to reach a maximum `y` position of **`45`**. (Any higher initial `y` velocity causes the probe to overshoot the target area entirely.)
 
-Find the initial velocity that causes the probe to reach the highest `y` position and still eventually be within the target area after any step. **What is the highest y position it reaches on this trajectory?**
+Find the initial velocity that causes the probe to reach the highest `y` position and still eventually be within the target area after any step. **What is the highest `y` position it reaches on this trajectory?**
